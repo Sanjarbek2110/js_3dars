@@ -53,12 +53,12 @@ else{
     alert("Iltimos amalni (+, -, *, /) kiriting!")
 }
 
-let son3 = +prompt("3-vazifa: Iltimos sizda becha dollar borligini kiriting meni uni kopda qancha bolishimi chiqarib beraman!");
+let son3 = +prompt("3-vazifa: Iltimos sizda necha dollar borligini kiriting meni uni so'mda qancha bolishini chiqarib beraman!");
 let som = 13;
 
 if(son3 !== som){
     alert("Sizda " + son3 + " dollar bor, bu " + son3 * som + ".000 so'mga teng!");
 }
-else{
+else if(son3 <= 0){
     alert("Iltimos 0 dan katta son kiriting!");
 }
